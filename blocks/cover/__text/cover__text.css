@@ -4,4 +4,11 @@
   grid-row: 1/4;
   flex-direction: column;
   align-items: center;
+  
+}
+
+@media screen and (max-width: 320px) {
+  .cover__text {
+    max-width: 288px;
+  }
 }
