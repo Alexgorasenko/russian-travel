@@ -1,12 +1,11 @@
-.cover{
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    padding-top: 92px;
-    
+.cover {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding-top: 92px;
 }
 @media screen and (max-width: 320px) {
-    .cover {
-        max-height: 200px;
-        }
-    }
+  .cover {
+    max-height: 200px;
+  }
+}

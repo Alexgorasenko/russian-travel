@@ -1,12 +1,14 @@
-.place__website{
-    list-style-type: none;
-    padding: 0;
-    grid-column: 2/3;
-    grid-row: 1/2;
+.place__website {
+  list-style-type: none;
+  padding: 0;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 0;
+  align-self: flex-end;
 }
 @media screen and (max-width: 767px) {
-    .place__website{
-        grid-row: 2/3;
-        grid-column: 1/2;    
-    }
-    }
+  .place__website {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+}
