@@ -4,6 +4,7 @@
   list-style-type: none;
   padding: 0;
 }
+
 @media screen and (max-width: 767px) {
   .place__description {
     grid-row: 4/5;

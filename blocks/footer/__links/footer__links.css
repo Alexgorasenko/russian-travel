@@ -4,12 +4,14 @@
   display: flex;
   padding-left: 48px;
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 767px) {
   .footer__links {
     flex-direction: column;
     padding-left: 16px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .footer__links {
     padding-left: 24px;
