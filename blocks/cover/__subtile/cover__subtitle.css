@@ -1,13 +1,17 @@
 .cover__subtitle {
   color: #fff;
-  z-index: 2;
-  font-family: 'Inter', sans-serif;
+  z-index: 1;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  text-align: center;
   margin: 0;
   line-height: 1.2;
   max-width: 360px;
+  transition: opacity 0.5s linear 0.1s;
+}
+
+.cover__subtitle:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
