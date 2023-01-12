@@ -11,5 +11,7 @@
   .place__website {
     grid-row: 2/3;
     grid-column: 1/2;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

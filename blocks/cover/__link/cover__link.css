@@ -11,8 +11,7 @@
   background-repeat: no-repeat;
   background-position: center;
   max-width: 560px;
-  margin: 0;
-  margin: auto;
+  margin: 0 auto;
   padding: 245px 312px;
 }
 
@@ -27,12 +26,6 @@
 }
 
 .cover__link:hover::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
   background-color: rgba(42, 44, 47, 0.8);
 }
 
