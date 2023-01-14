@@ -6,8 +6,10 @@
   align-self: center;
   max-width: 640px;
   text-align: center;
-  margin-top: 32px;
+  margin-top: 16px;
+  margin-bottom: 40px;
   line-height: 1.2;
+  margin-left: 13px;
 }
 
 @media screen and (max-width: 767px) {

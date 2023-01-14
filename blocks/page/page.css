@@ -2,4 +2,5 @@
   background-color: #2a2c2f;
   margin: 0;
   width: 100%;
+  min-width: 320px;
 }
