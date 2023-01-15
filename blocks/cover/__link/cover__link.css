@@ -13,8 +13,8 @@
   max-width: 560px;
   margin: 0 auto;
   min-height: 740px;
+  min-width: 1184px;
   justify-content: center;
-  padding: 0px 312px;
 }
 
 .cover__link::before {
@@ -31,23 +31,21 @@
   background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media (max-width: 1184px) {
+@media (max-width: 1201px) {
   .cover__link {
-    padding: 0px 232px;
     min-height: 640px;
+    min-width: 100%;
   }
 }
 
 @media (max-width: 970px) {
   .cover__link {
-    padding: 0px 104px;
     min-height: 480px;
   }
 }
 
 @media (max-width: 450px) {
   .cover__link {
-    padding: 0px 16px;
     min-height: 200px;
   }
 }

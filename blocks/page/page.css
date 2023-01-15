@@ -1,6 +1,10 @@
 .page {
   background-color: #2a2c2f;
   margin: 0;
-  width: 100vw;
-  min-width: 320px;
+}
+
+@media screen and (max-width: 999px) {
+  .page {
+    min-width: 100vw;
+  }
 }
