@@ -1,7 +1,7 @@
-.header__list {
+.header__item {
   margin-right: 18px;
 }
 
-.header__list:last-child {
+.header__item:last-child {
   margin-right: 0;
 }

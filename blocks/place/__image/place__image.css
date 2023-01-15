@@ -4,23 +4,24 @@
   align-self: flex-start;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .place__image {
     max-width: 440px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .place__image {
     max-width: 340px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 650px) {
   .place__image {
     grid-row: 3/4;
     grid-column: 1/2;
     padding-bottom: 0;
     max-width: 100%;
+    min-width: 320px;
   }
 }

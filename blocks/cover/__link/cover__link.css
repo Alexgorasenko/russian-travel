@@ -12,8 +12,9 @@
   background-position: center;
   max-width: 560px;
   margin: 0 auto;
-  padding: 240px 310px 245px 320px;
+  min-height: 740px;
   justify-content: center;
+  padding: 0px 312px;
 }
 
 .cover__link::before {
@@ -32,18 +33,21 @@
 
 @media (max-width: 1184px) {
   .cover__link {
-    padding: 195px 232px;
+    padding: 0px 232px;
+    min-height: 640px;
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 970px) {
   .cover__link {
-    padding: 115px 104px;
+    padding: 0px 104px;
+    min-height: 480px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 450px) {
   .cover__link {
-    padding: 33px 16px;
+    padding: 0px 16px;
+    min-height: 200px;
   }
 }
