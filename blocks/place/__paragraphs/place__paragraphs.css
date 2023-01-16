@@ -4,32 +4,27 @@
   list-style-type: none;
   padding: 0;
   align-self: start;
+  min-width: 484px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
   .place__paragraphs {
-    max-width: 456px;
+    min-width: 456px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__paragraphs {
-    max-width: 352px;
+    min-width: 352px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 740px) {
   .place__paragraphs {
     grid-row: 4/5;
     grid-column: 1/2;
     max-width: 100%;
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__paragraphs {
-    max-width: 100%;
+    margin: auto;
+    min-width: 288px;
   }
 }
